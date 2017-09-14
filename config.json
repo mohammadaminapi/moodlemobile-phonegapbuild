@@ -11,7 +11,7 @@
     "wsextservice" : "local_mobile",
       "gcmpn": "694767596569",
     "customurlscheme": "moodle-mobile",
-    "siteurl": "https://www.mahdavi.ir/lms",
+    "url": "https://www.mahdavi.ir/lms",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "true",
     "privacypolicy": "https://www.mahdavi.ir/lms/help"
