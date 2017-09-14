@@ -5,10 +5,10 @@
         id        = "com.moodle.moodlemobile"
         versionCode = "20190"
         version   = "3.3.1">
-    <name>Moodle Mobile</name>
+    <name>Mahdavidell</name>
 
     <description>
-        Moodle Mobile official app
+    mahdavi official app
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
@@ -146,7 +146,7 @@
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="true" />
+         <application android:debuggable="false" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
