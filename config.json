@@ -10,7 +10,7 @@
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
       "gcmpn": "694767596569",
-    "customurlscheme": "moodle-mobile",
+    "customurlscheme": "https://github.com/mohammadaminapi/moodlemobile-phonegapbuild/config.xml",
     "siteurl": "https://www.mahdavi.ir/lms",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "true",
