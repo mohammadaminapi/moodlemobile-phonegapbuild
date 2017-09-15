@@ -14,7 +14,7 @@
     "siteurl": "https://www.mahdavi.ir/lms",
 	"url": "https://www.mahdavi.ir/lms",
 	"customurlscheme": "https://github.com/mohammadaminapi/moodlemobile-phonegapbuild/config.xml",
-    "presets" : {"url": "https://www.mahdavi.ir/lms", "username": ""},
+    "presets" : {"url": "https://www.mahdavi.ir/lms","siteurl": "https://www.mahdavi.ir/lms", "username": ""},
 	"presets" : {"siteurl": "https://www.mahdavi.ir/lms", "username": ""},
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "true",
