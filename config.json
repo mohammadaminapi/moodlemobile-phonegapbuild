@@ -4,9 +4,10 @@
 "versioncode" : "11",
 "versionname" : "1.1",
 "cache_expiration_time" : 300000,
+"languages": "fa",
 "languages": { "fa": "فارسی"},
 "default_lang" : "fa",
-"languages": { "fa": "فارسی"},
+
 "wsservice" : "moodle_mobile_app",
 "wsextservice" : "local_mobile",
 "siteurl" : "https://lms.mahdavi.ir" ,
