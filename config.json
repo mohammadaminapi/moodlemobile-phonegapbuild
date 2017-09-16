@@ -1,6 +1,6 @@
 
 {
-"app_id" : "com.moodle.moodlemobilemahdavi",
+"app_id" : "com.moodle.moodlemobileapp",
 "versioncode" : "11",
 "versionname" : "1.1",
 "cache_expiration_time" : 300000,
@@ -9,6 +9,7 @@
 "wsservice" : "moodle_mobile_app",
 "wsextservice" : "local_mobile",
 "presets" : {"url": "https://www.mahdavi.ir/lms", "username": ""},
+  "siteurl" : "https://lms.mahdavi.ir" ,
 "sync_ws_on" : true,
 "sync_css_on" : true,
 "sync_cron": 300000,
