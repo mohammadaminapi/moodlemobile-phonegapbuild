@@ -26,6 +26,27 @@ $dark:                            #444 !default;
   used under CC BY http://creativecommons.org/licenses/by/4.0/
   Modified icons to fit ionicon’s grid from original.
 */
+/**
+ * Stylesheet for RTL handling.
+ */
+.rtl, html[dir=rtl] {
+  direction: rtl;
+  text-align: right;
+}
+
+/** To fix empty page issue in rtl. **/
+.rtl .click-block-hide {
+  @include translate3d(9999px, 0, 0);
+}
+
+/**
+ * It will move sidemenu to right side in RTL.
+ * We can improve this by updating core scss but
+ * I was in hurry ;)
+ **/
+.rtl .menu-left {
+  right: 0;
+}
 @font-face {
   font-family: "Ionicons";
   src: url("../lib/ionic/fonts/ionicons.eot?v=2.0.1");
@@ -7788,3 +7809,24 @@ em {
 .tablet .mm-split-pane-content {
   display: block; }
   *{text-align: right!important;direction: rtl!important;}
+  /**
+   * Stylesheet for RTL handling.
+   */
+  .rtl, html[dir=rtl] {
+    direction: rtl;
+    text-align: right;
+  }
+
+  /** To fix empty page issue in rtl. **/
+  .rtl .click-block-hide {
+    @include translate3d(9999px, 0, 0);
+  }
+
+  /**
+   * It will move sidemenu to right side in RTL.
+   * We can improve this by updating core scss but
+   * I was in hurry ;)
+   **/
+  .rtl .menu-left {
+    right: 0;
+  }
